@@ -221,8 +221,8 @@ const SorobanPresentation = () => {
             <p className="text-gray-600">Max Contract Size</p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
-            <p className="text-4xl font-bold text-blue-600">64 KB</p>
-            <p className="text-gray-600">Max Storage Entry</p>
+            <p className="text-4xl font-bold text-blue-600">16 KB</p>
+            <p className="text-gray-600">Max Event Size</p>
           </div>
         </div>
       </Card>
@@ -383,7 +383,7 @@ impl IncrementContract {
             </h3>
             <div className="space-y-2">
               <div>• Events have topics and data</div>
-              <div>• Up to 4 topics for indexing</div>
+              <div>• Unlimited topics for indexing (within 16kb limit)</div>
               <div>• Data can be any contract type</div>
             </div>
           </div>
